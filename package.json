@@ -1,0 +1,54 @@
+{
+  "name": "breuninger-skill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "cd src && yarn install && rm -rf yarn.lock",
+    "build": "yarn setup && gulp",
+    "schema": "yarn build && node functions/skill/schema.js",
+    "deploy": "yarn build && AWS_REGION=eu-west-1 apex --profile private deploy",
+    "dependency-update": "npm-check -E -u",
+    "precommit": "lint-staged",
+    "cz": "git-cz",
+    "commitmsg": "commitlint -e"
+  },
+  "lint-staged": {
+    "{**/,}*.{ts,tsx}": [
+      "git add"
+    ],
+    "{**/,}*.{js,jsx}": [
+      "git add"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "6.2.0",
+    "@types/alexa-sdk": "1.1.1",
+    "@types/request": "2.47.0",
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.1.0",
+    "del": "3.0.0",
+    "eslint": "4.19.1",
+    "gulp": "3.9.1",
+    "gulp-sequence": "1.0.0",
+    "gulp-typescript": "4.0.2",
+    "husky": "0.14.3",
+    "lint-staged": "7.1.0",
+    "npm-check": "5.7.0",
+    "tslint": "5.10.0",
+    "tslint-eslint-rules": "5.2.0",
+    "tslint-language-service": "0.9.9",
+    "typescript": "2.8.3"
+  },
+  "author": {
+    "name": "Benedikt Stemmildt",
+    "email": "benedikt@stemmildt.com",
+    "url": "https://github.com/benestem"
+  },
+  "license": "Apache-2.0"
+}
