@@ -11,6 +11,8 @@ Install and setup apex:
 http://apex.run/#installation
 http://apex.run/#aws-credentials
 
+    $ yarn install-apex
+
 Install dependencies:
 
     $ yarn install

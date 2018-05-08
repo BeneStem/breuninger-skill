@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "install-apex": "curl https://raw.githubusercontent.com/apex/apex/master/install.sh | sh",
     "setup": "cd src && yarn install && rm -rf yarn.lock",
     "build": "yarn setup && gulp",
     "schema": "yarn build && node functions/skill/schema.js",

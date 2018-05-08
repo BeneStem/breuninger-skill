@@ -13,33 +13,12 @@
          "samples": []
       },
       {
-         "name": "DealIntent",
+         "name": "NavigationIntent",
          "samples": [
-            "Deal",
-            "Deal des Tags",
-            "Was ist der Deal des Tages",
-            "Sag mir den Deal des Tages",
-            "Nenn mir den Deal des Tages",
-            "Nenne mir den Deal des Tages"
-         ]
-      },
-      {
-         "name": "OrderItemIntent",
-         "samples": [
-            "Paket",
-            "Sendung",
-            "Bestellung",
-            "Sendungsverfolgung",
-            "Sendungsauskunft",
-            "Wo ist mein Paket"
-         ]
-      },
-      {
-         "name": "DuckIntent",
-         "samples": [
-            "nach der Ente",
-            "was sagt die Ente",
-            "vielen Dank Alexa"
+            "Navigieren",
+            "Navigiere mich zu",
+            "Gehe zu",
+            "Zeige mir"
          ]
       }
    ],

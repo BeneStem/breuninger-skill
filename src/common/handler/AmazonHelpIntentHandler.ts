@@ -1,7 +1,7 @@
 import {request, RequestHandler, response} from 'alexa-app';
 
 function AmazonHelpIntentHandler(this: RequestHandler, alexaRequest: request, alexaResponse: response): void {
-  alexaResponse.say('Quack, Quack! Die Ente hat gesprochen')
+  alexaResponse.say('Ich kann Ihnen leider nicht helfen')
     .shouldEndSession(false);
 }
 

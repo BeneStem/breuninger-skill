@@ -8,14 +8,8 @@ import AmazonCancelIntentHandler from './common/handler/AmazonCancelIntentHandle
 import AmazonHelpIntentHandler from './common/handler/AmazonHelpIntentHandler';
 import AmazonStopIntentHandler from './common/handler/AmazonStopIntentHandler';
 
-import DealIntent from './deal/domain/DealIntent';
-import DealIntentHandler from './deal/handler/DealIntentHandler';
-
-import OrderItemIntent from './orderItem/domain/OrderItemIntent';
-import OrderItemIntentHandler from './orderItem/handler/OrderItemIntentHandler';
-
-import DuckIntent from './common/domain/DuckIntent';
-import DuckIntentHandler from './common/handler/DuckIntentHandler';
+import NavigationIntent from './navigation/domain/NavigationIntent';
+import NavigationIntentHandler from './navigation/handler/NavigationIntentHandler';
 
 import ErrorHandler from './common/handler/ErrorHandler';
 
@@ -33,11 +27,7 @@ app.intent('AMAZON.HelpIntent', AmazonIntent, AmazonHelpIntentHandler);
 
 app.intent('AMAZON.StopIntent', AmazonIntent, AmazonStopIntentHandler);
 
-app.intent('DealIntent', DealIntent, DealIntentHandler);
-
-app.intent('OrderItemIntent', OrderItemIntent, OrderItemIntentHandler);
-
-app.intent('DuckIntent', DuckIntent, DuckIntentHandler);
+app.intent('NavigationIntent', NavigationIntent, NavigationIntentHandler);
 
 app.sessionEnded((alexaRequest: request, alexaResponse: response) => {
   // AlexaResponse.say('Quack, Quack! Die Ente hat gesprochen');
