@@ -1,6 +1,9 @@
 import {request, RequestHandler, response} from 'alexa-app';
 
 function TrendIntentHandler(this: RequestHandler, alexaRequest: request, alexaResponse: response): void {
+  // TODO BACKGROUND SCHÖNER
+  // TODO NAME DER FARBE ANZEIGEN
+  // TODO MAYBE CARD
   alexaResponse.directive({
     type: 'Display.RenderTemplate',
     template: {
