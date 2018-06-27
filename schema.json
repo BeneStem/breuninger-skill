@@ -13,12 +13,63 @@
          "samples": []
       },
       {
+         "name": "AMAZON.NavigateHomeIntent",
+         "samples": []
+      },
+      {
+         "name": "TrendIntent",
+         "samples": [
+            "was soll ich tragen",
+            "was soll ich anziehen",
+            "womit kann ich Aufsehen erregen",
+            "womit steche ich heraus"
+         ]
+      },
+      {
+         "name": "ProductIntent",
+         "samples": [
+            "Neue Produkte",
+            "Etwas Neues",
+            "Was Neues",
+            "Neues im Sortiment",
+            "Sortiment"
+         ]
+      },
+      {
+         "name": "EventIntent",
+         "samples": [
+            "anprobieren",
+            "ansehen",
+            "Probe"
+         ]
+      },
+      {
          "name": "NavigationIntent",
          "samples": [
-            "Navigieren",
-            "Navigiere mich zu",
-            "Gehe zu",
-            "Zeige mir"
+            "Wo finde ich {product}",
+            "Navigiere mich zu {product}",
+            "Ich suche {product}"
+         ],
+         "slots": [
+            {
+               "name": "product",
+               "type": "AMAZON.SearchQuery",
+               "samples": []
+            }
+         ]
+      },
+      {
+         "name": "InformationIntent",
+         "samples": [
+            "Welche {topic} gibt es bei Breuninger",
+            "Welche {topic} Möglichkeiten habe ich bei Breuninger"
+         ],
+         "slots": [
+            {
+               "name": "topic",
+               "type": "AMAZON.SearchQuery",
+               "samples": []
+            }
          ]
       }
    ],

@@ -1,9 +1,10 @@
 export default {
-  slots: {},
+  slots: {
+    product: 'AMAZON.SearchQuery'
+  },
   utterances: [
-    'Navigieren',
-    'Navigiere mich zu',
-    'Gehe zu',
-    'Zeige mir'
+    'Wo finde ich {-|product}',
+    'Navigiere mich zu {-|product}',
+    'Ich suche {-|product}'
   ]
 };

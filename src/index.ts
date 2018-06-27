@@ -1,3 +1,3 @@
 import app from './app';
 
-exports.handler = app.handler;
+exports.handler = app.lambda();
