@@ -81,6 +81,17 @@ export default app;
 
 // PDF-Statistische Daten (2)
 
+// Potenzial
+// Order Stuff at restaurant
+// Shuttle buchen
+// FAQ / Information
+// do sth while doing sth else
+// Artikelinformation
+// BC Freischaltung
+// Delivery Status
+// Abrechung, Saldo
+// navigations hilfe im online-shop
+
 // 1. Verliebt => Alexa Beispiel Vorführung
 // 2. Kundennutzen => Wir haben Verkäufer gefragt: das kam raus, Wir haben Kunden Statistik: das sind die daten, Breuninger Kundengruppen
 // 3. Innovationsgrad => Verbindung von Online & Stationär, Barrieren verkleinern, First Mover, Kann noch keiner, Erfolgsstory wie bei BC
@@ -90,6 +101,7 @@ export default app;
 // TODO Donnerstag
 // Formulierungen final @Julia
 // Implementierung restlicher Intents @Bene, Choi
+// Betonungen & Aussprache final @Julia
 // Generalprobe Alexa @Svenja, Julia, Milen?
 // MARKENNAME @Julia, Milen
 // MARKENICON @Julia, Milen
