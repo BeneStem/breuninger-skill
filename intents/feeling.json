@@ -1,0 +1,10 @@
+{
+    "intent_name": "Feeling",
+    "utterances": [
+        "Gefuel",
+        "Gefuele",
+        "fuelen",
+        "fuele"
+    ],
+    "response_sentence": "Ich bin auch gluecklich."
+}

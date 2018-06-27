@@ -1,0 +1,8 @@
+{
+    "intent_name": "Plan",
+    "utterances": [
+        "plannen",
+        "plan"
+    ],
+    "response_sentence": "Planung ist immer gut."
+}

@@ -30,6 +30,9 @@
     "suppressImplicitAnyIndexErrors": true,
     "target": "es2015"
   },
+  "exclude": [
+    "skeleton"
+  ],
   "types": [
     "typePatches"
   ]

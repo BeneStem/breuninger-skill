@@ -21,6 +21,8 @@ import NavigationIntentHandler from './navigation/handler/NavigationIntentHandle
 import InformationIntent from './information/domain/InformationIntent';
 import InformationIntentHandler from './information/handler/InformationIntentHandler';
 
+// NEW_IMPORT_INSERTED
+
 import ErrorHandler from './common/handler/ErrorHandler';
 
 const app = new alexa.app('breuninger');
@@ -48,6 +50,7 @@ app.intent('NavigationIntent', NavigationIntent, NavigationIntentHandler);
 
 app.intent('InformationIntent', InformationIntent, InformationIntentHandler);
 
+// NEW_INTENT_INSERTED
 
 app.sessionEnded(AmazonStopIntentHandler);
 
