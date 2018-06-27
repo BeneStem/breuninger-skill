@@ -1,6 +1,11 @@
 import {request, RequestHandler, response} from 'alexa-app';
 
 function ProductIntentHandler(this: RequestHandler, alexaRequest: request, alexaResponse: response): void {
+  // TODO TEXT
+  // TODO TITLE
+  // TODO BACKGROUND
+  // TODO INSTAGRAM LIKES...
+  // TODO MAYBE CARD
   alexaResponse.directive({
     type: 'Display.RenderTemplate',
     template: {
