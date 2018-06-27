@@ -1,4 +1,4 @@
-          import * as alexa from 'alexa-app';
+import * as alexa from 'alexa-app';
 
 import AmazonLaunchIntentHandler from './common/handler/AmazonLaunchIntentHandler';
 import AmazonIntent from './common/domain/AmazonIntent';
