@@ -16,21 +16,7 @@ function Step8IntentHandler(this: RequestHandler, alexaRequest: request, alexaRe
             size: 'X_LARGE'
           }
         ]
-      },
-      // image: {
-      //   sources: [
-      //     {
-      //       url: 'https://dmt1ij82bkw8z.cloudfront.net/Breuninger-Ganni-Hosenanzug.png',
-      //       size: 'X_LARGE'
-      //     }
-      //   ]
-      // },
-      // textContent: {
-      //   primaryText: {
-      //     type: 'RichText',
-      //     text: 'Obermaterial:<br />98% Baumwolle<br />2% Elasthan<br /><br />Futter:<br />100% Baumwolle'
-      //   }
-      // }
+      }
     }
   });
 
