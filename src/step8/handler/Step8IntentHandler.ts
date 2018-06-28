@@ -12,7 +12,7 @@ function Step8IntentHandler(this: RequestHandler, alexaRequest: request, alexaRe
       backgroundImage: {
         sources: [
           {
-            url: 'https://blog.skybet.de/wp-content/uploads/2017/11/FIFA-WM-Pokal.jpg',
+            url: 'https://dmt1ij82bkw8z.cloudfront.net/Breuninger-Oscar.jpg',
             size: 'X_LARGE'
           }
         ]
