@@ -6,5 +6,8 @@ export default {
     'Was Neues',
     'Neues im Sortiment',
     'Sortiment',
+    'führen',
+    'führt',
+    'Marke'
   ]
 };

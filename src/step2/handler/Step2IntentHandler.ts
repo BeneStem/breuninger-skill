@@ -1,10 +1,6 @@
 import {request, RequestHandler, response} from 'alexa-app';
 
 function Step2IntentHandler(this: RequestHandler, alexaRequest: request, alexaResponse: response): void {
-  // TODO TEXT
-  // TODO TITLE
-  // TODO BACKGROUND
-  // TODO INSTAGRAM LIKES...
   // TODO MAYBE CARD
   alexaResponse.directive({
     type: 'Display.RenderTemplate',
@@ -12,7 +8,15 @@ function Step2IntentHandler(this: RequestHandler, alexaRequest: request, alexaRe
       type: 'BodyTemplate3',
       token: 'product_image',
       backButton: 'HIDDEN',
-      title: '',
+      title: 'Hosenanzug von Ganni',
+      backgroundImage: {
+        sources: [
+          {
+            url: 'https://dmt1ij82bkw8z.cloudfront.net/Breuninger-Step2-Background.png',
+            size: 'X_LARGE'
+          }
+        ]
+      },
       image: {
         sources: [
           {
@@ -24,13 +28,13 @@ function Step2IntentHandler(this: RequestHandler, alexaRequest: request, alexaRe
       textContent: {
         primaryText: {
           type: 'RichText',
-          text: ''
+          text: 'Zeitlos, klassisch und dennoch ausgefallen präsentiert sich dieser exklusive Hosenanzug von Ganni. Kombinieren Sie ihn mit einer Seidenbluse und nudefarbenen Pumps, um auf jedem Event zu glänzen.'
         }
       }
     }
   });
-  alexaResponse.say(`Ja, wir haben grade eine ganz neue, exclusive Chino Sakko Kombination von Chanel erhalten. Schau doch mal!`)
-    .reprompt('Was kann ich für dich tun?')
+  alexaResponse.say(`Wir haben grade einen ganz exquisiten, gelben Hosenanzug von Ganni erhalten. Wär der was für Sie?`)
+    .reprompt('Kann ich Ihnen eine Alternative empfehlen?')
     .shouldEndSession(false);
 }
 

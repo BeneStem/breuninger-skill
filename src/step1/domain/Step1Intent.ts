@@ -8,6 +8,9 @@ export default {
     'womit kann ich Aufsehen erregen',
     'Aufsehen erregen',
     'Aufsehen',
-    'womit steche ich heraus'
+    'womit steche ich heraus',
+    'was kannst du mir empfehlen',
+    'empfehlen',
+    'trend'
   ]
 };
