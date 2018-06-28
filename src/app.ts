@@ -93,21 +93,11 @@ export default app;
 
 // 1. Verliebt => Alexa Beispiel Vorführung
 // 2. Kundennutzen => Wir haben Verkäufer gefragt: das kam raus, Wir haben Kunden Statistik: das sind die daten, Breuninger Kundengruppen
-// 3. Innovationsgrad => Verbindung von Online & Stationär, Barrieren verkleinern, First Mover, Kann noch keiner, Erfolgsstory wie bei BC
+// 3. Innovationsgrad => Verbindung von Online & Stationär, Barrieren verkleinern, First Mover, Kann noch keiner, Erfolgsstory wie bei BC, bringt den Kunden schon mal was bei für die nächsten Jahre
 // 4. Potenzial => Business Case, Verkäufer können sich konzentrieren, Skalierbarkeit, Weihnachstgeschäft, Kunden-Involvement, UseCase die Verkaufsfördernd sind
 // 5. Machbarkeit => Ihr seht ja, wie weit wir schon sind. Einiges gefaked. Plan für Integration aufzeigen!
 
 // TODO Donnerstag
-// Implementierung restlicher Intents @Bene, Choi
-
-// Formulierungen final @Julia
-// Betonungen & Aussprache final @Julia
-
-// Generalprobe Alexa @Svenja, Julia, Milen?
-
-// MARKENNAME @Julia, Milen
-// MARKENICON @Julia, Milen
-
 // Präsentaion @Svenja, Julia, Milen?
 // Generalprobe Alles @Svenja, Julia, Milen?
 // Zusammenfassungs-Folie @Svenja, Julia, Milen?
