@@ -6,20 +6,26 @@ import AmazonCancelIntentHandler from './common/handler/AmazonCancelIntentHandle
 import AmazonHelpIntentHandler from './common/handler/AmazonHelpIntentHandler';
 import AmazonStopIntentHandler from './common/handler/AmazonStopIntentHandler';
 
-import TrendIntent from './trend/domain/TrendIntent';
-import TrendIntentHandler from './trend/handler/TrendIntentHandler';
+import Step1Intent from './step1/domain/Step1Intent';
+import Step1IntentHandler from './step1/handler/Step1IntentHandler';
 
-import ProductIntent from './product/domain/ProductIntent';
-import ProductIntentHandler from './product/handler/ProductIntentHandler';
+import Step2Intent from './step2/domain/Step2Intent';
+import Step2IntentHandler from './step2/handler/Step2IntentHandler';
 
-import EventIntent from './event/domain/EventIntent';
-import EventIntentHandler from './event/handler/EventIntentHandler';
+import Step3Intent from './step3/domain/Step3Intent';
+import Step3IntentHandler from './step3/handler/Step3IntentHandler';
 
-import NavigationIntent from './navigation/domain/NavigationIntent';
-import NavigationIntentHandler from './navigation/handler/NavigationIntentHandler';
+import Step4Intent from './step4/domain/Step4Intent';
+import Step4IntentHandler from './step4/handler/Step4IntentHandler';
 
-import InformationIntent from './information/domain/InformationIntent';
-import InformationIntentHandler from './information/handler/InformationIntentHandler';
+import Step5Intent from './step5/domain/Step5Intent';
+import Step5IntentHandler from './step5/handler/Step5IntentHandler';
+
+import Step6Intent from './step6/domain/Step6Intent';
+import Step6IntentHandler from './step6/handler/Step6IntentHandler';
+
+import Step7Intent from './step7/domain/Step7Intent';
+import Step7IntentHandler from './step7/handler/Step7IntentHandler';
 
 // NEW_IMPORT_INSERTED
 
@@ -36,34 +42,15 @@ app.intent('AMAZON.HelpIntent', AmazonIntent, AmazonHelpIntentHandler);
 app.intent('AMAZON.StopIntent', AmazonIntent, AmazonStopIntentHandler);
 app.intent('AMAZON.NavigateHomeIntent', AmazonIntent, AmazonStopIntentHandler);
 
-// home
-
-// 1 Step
-app.intent('TrendIntent', TrendIntent, TrendIntentHandler);
-
-// 2 Step
-app.intent('ProductIntent', ProductIntent, ProductIntentHandler);
-
-// 3 Step
-app.intent('EventIntent', EventIntent, EventIntentHandler);
-
-// TODO Oh ja, zu dem Event komme ich. => Freut mich, dann sehen wir uns morgen abend! ==> STOP
-
-
-// in-store
-
-// TODO Ich hab von dem XXX-Event gehört, wo finde ich das denn? => KARTEN BILD + ORTSANGABE (VERKÄUFER FAVORIT)
-app.intent('NavigationIntent', NavigationIntent, NavigationIntentHandler);
-
-// sie nimmt am event teil und geht in umkleide
-
-// TODO Gibts das auch in 38?? => E-Mail wird getriggert =/= Ja, die Größe habe ich gefunden und einen Verkäufer benachrichtigt, dein Teil wird dir gleich gebracht. (VERKÄUFER FAVORIT) ==> STOP
-app.intent('InformationIntent', InformationIntent, InformationIntentHandler);
+app.intent('StepOneIntent', Step1Intent, Step1IntentHandler);
+app.intent('StepTwoIntent', Step2Intent, Step2IntentHandler);
+app.intent('StepThreeIntent', Step3Intent, Step3IntentHandler);
+app.intent('StepFourIntent', Step4Intent, Step4IntentHandler);
+app.intent('StepFiveIntent', Step5Intent, Step5IntentHandler);
+app.intent('StepSixIntent', Step6Intent, Step6IntentHandler);
+app.intent('StepSevenIntent', Step7Intent, Step7IntentHandler);
 
 // NEW_INTENT_INSERTED
-// TODO Das will ich haben, Bestell mir das nach Hause. ???
-// TODO Selbst entsichern, Selbst bezahlen ???
-
 
 app.sessionEnded(AmazonStopIntentHandler);
 
@@ -72,6 +59,15 @@ app.error = ErrorHandler;
 app.messages.NO_INTENT_FOUND = 'Diese Anfrage kann ich leider nicht beantworten.';
 
 export default app;
+
+// Oh ja, zu dem Event komme ich. => Freut mich, dann sehen wir uns morgen abend! ==> STOP
+// Ich hab von dem XXX-Event gehört, wo finde ich das denn? => KARTEN BILD + ORTSANGABE (VERKÄUFER FAVORIT)
+// Produktinformationen an der Kleiderstange erfragen
+// Gibts das auch in 38?? => E-Mail wird getriggert =/= Ja, die Größe habe ich gefunden und einen Verkäufer benachrichtigt, dein Teil wird dir gleich gebracht. (VERKÄUFER FAVORIT) ==> STOP
+
+// sie nimmt am event teil und geht in umkleide
+// Das will ich haben, Bestell mir das nach Hause. ???
+// Selbst entsichern, Selbst bezahlen ???
 
 // Verkäufer Probleme (2)
 // wo finde ich das?
@@ -102,12 +98,16 @@ export default app;
 // 5. Machbarkeit => Ihr seht ja, wie weit wir schon sind. Einiges gefaked. Plan für Integration aufzeigen!
 
 // TODO Donnerstag
-// Formulierungen final @Julia
 // Implementierung restlicher Intents @Bene, Choi
+
+// Formulierungen final @Julia
 // Betonungen & Aussprache final @Julia
+
 // Generalprobe Alexa @Svenja, Julia, Milen?
+
 // MARKENNAME @Julia, Milen
 // MARKENICON @Julia, Milen
+
 // Präsentaion @Svenja, Julia, Milen?
 // Generalprobe Alles @Svenja, Julia, Milen?
 // Zusammenfassungs-Folie @Svenja, Julia, Milen?

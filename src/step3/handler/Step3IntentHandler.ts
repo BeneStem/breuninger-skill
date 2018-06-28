@@ -1,6 +1,6 @@
 import {request, RequestHandler, response} from 'alexa-app';
 
-function EventIntentHandler(this: RequestHandler, alexaRequest: request, alexaResponse: response): void {
+function Step3IntentHandler(this: RequestHandler, alexaRequest: request, alexaResponse: response): void {
   // TODO BILD
   // TODO BACKGROUND
   // TODO TITLE
@@ -11,4 +11,4 @@ function EventIntentHandler(this: RequestHandler, alexaRequest: request, alexaRe
     .shouldEndSession(false);
 }
 
-export default EventIntentHandler;
+export default Step3IntentHandler;

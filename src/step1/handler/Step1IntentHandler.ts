@@ -1,6 +1,6 @@
 import {request, RequestHandler, response} from 'alexa-app';
 
-function TrendIntentHandler(this: RequestHandler, alexaRequest: request, alexaResponse: response): void {
+function Step1IntentHandler(this: RequestHandler, alexaRequest: request, alexaResponse: response): void {
   // TODO BACKGROUND SCHÖNER
   // TODO NAME DER FARBE ANZEIGEN
   // TODO MAYBE CARD
@@ -26,4 +26,4 @@ function TrendIntentHandler(this: RequestHandler, alexaRequest: request, alexaRe
     .shouldEndSession(false);
 }
 
-export default TrendIntentHandler;
+export default Step1IntentHandler;

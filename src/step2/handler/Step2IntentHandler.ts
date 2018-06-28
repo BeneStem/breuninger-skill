@@ -1,6 +1,6 @@
 import {request, RequestHandler, response} from 'alexa-app';
 
-function ProductIntentHandler(this: RequestHandler, alexaRequest: request, alexaResponse: response): void {
+function Step2IntentHandler(this: RequestHandler, alexaRequest: request, alexaResponse: response): void {
   // TODO TEXT
   // TODO TITLE
   // TODO BACKGROUND
@@ -34,4 +34,4 @@ function ProductIntentHandler(this: RequestHandler, alexaRequest: request, alexa
     .shouldEndSession(false);
 }
 
-export default ProductIntentHandler;
+export default Step2IntentHandler;

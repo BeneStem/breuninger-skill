@@ -17,7 +17,7 @@
          "samples": []
       },
       {
-         "name": "TrendIntent",
+         "name": "StepOneIntent",
          "samples": [
             "was soll ich tragen",
             "tragen",
@@ -30,7 +30,7 @@
          ]
       },
       {
-         "name": "ProductIntent",
+         "name": "StepTwoIntent",
          "samples": [
             "Neue Produkte",
             "Etwas Neues",
@@ -40,7 +40,7 @@
          ]
       },
       {
-         "name": "EventIntent",
+         "name": "StepThreeIntent",
          "samples": [
             "anprobieren",
             "anschauen",
@@ -49,32 +49,42 @@
          ]
       },
       {
-         "name": "NavigationIntent",
+         "name": "StepFourIntent",
          "samples": [
-            "Wo finde ich {product}",
-            "Navigiere mich zu {product}",
-            "Ich suche {product}"
-         ],
-         "slots": [
-            {
-               "name": "product",
-               "type": "AMAZON.SearchQuery",
-               "samples": []
-            }
+            "ich komme",
+            "ich gehe",
+            "teilnehmen",
+            "da bin ich dabei"
          ]
       },
       {
-         "name": "InformationIntent",
+         "name": "StepFiveIntent",
          "samples": [
-            "Welche {topic} gibt es bei Breuninger",
-            "Welche {topic} Möglichkeiten habe ich bei Breuninger"
-         ],
-         "slots": [
-            {
-               "name": "topic",
-               "type": "AMAZON.SearchQuery",
-               "samples": []
-            }
+            "wo finde ich",
+            "in welchem stock ist",
+            "stock",
+            "in welchem stockwerk ist",
+            "stockwerk",
+            "wo muss ich hin",
+            "hingehen"
+         ]
+      },
+      {
+         "name": "StepSixIntent",
+         "samples": [
+            "werde ich darin schwitzen",
+            "schweiß",
+            "schwitzen"
+         ]
+      },
+      {
+         "name": "StepSevenIntent",
+         "samples": [
+            "andere Größe",
+            "Größe",
+            "andere Farbe",
+            "passt nicht",
+            "kürzer machen"
          ]
       }
    ],
