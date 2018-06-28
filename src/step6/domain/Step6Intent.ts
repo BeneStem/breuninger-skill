@@ -4,6 +4,7 @@ export default {
     "werde ich darin schwitzen",
     "Schweiß",
     "schwitzen",
-    "Schweißpflecken"
+    "Schweißflecken",
+    "Flecken",
   ]
 };
