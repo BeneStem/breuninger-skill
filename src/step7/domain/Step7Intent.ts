@@ -1,7 +1,33 @@
 export default {
   slots: {},
   utterances: [
-    "Größe",
-    "passt nicht"
+    'Bekomme ich den auch in Größe Achtunddreißig',
+    'Bekomme ich den auch in einer anderen Größe',
+    'Der Anzug passt nicht Bekomme ich den auch in Größe Achtunddreißig',
+    'Der Anzug passt nicht Bekomme ich den auch in einer anderen Größe',
+    'Der Anzug passt nicht Kriege ich den auch in Größe Achtunddreißig',
+    'Der Anzug passt nicht Kriege ich den auch in einer anderen Größe',
+    'Der Anzug sitzt nicht Bekomme ich den auch in Größe Achtunddreißig',
+    'Der Anzug sitzt nicht Bekomme ich den auch in einer anderen Größe',
+    'Der Anzug sitzt nicht Kriege ich den auch in Größe Achtunddreißig',
+    'Der Anzug sitzt nicht Kriege ich den auch in einer anderen Größe',
+    'Der Artikel passt nicht Bekomme ich den auch in Größe Achtunddreißig',
+    'Der Artikel passt nicht Bekomme ich den auch in einer anderen Größe',
+    'Der Artikel passt nicht Kriege ich den auch in Größe Achtunddreißig',
+    'Der Artikel passt nicht Kriege ich den auch in einer anderen Größe',
+    'Der Artikel sitzt nicht Bekomme ich den auch in Größe Achtunddreißig',
+    'Der Artikel sitzt nicht Bekomme ich den auch in einer anderen Größe',
+    'Der Artikel sitzt nicht Kriege ich den auch in Größe Achtunddreißig',
+    'Der Artikel sitzt nicht Kriege ich den auch in einer anderen Größe',
+    'Der Blazer passt nicht Bekomme ich den auch in Größe Achtunddreißig',
+    'Der Blazer passt nicht Bekomme ich den auch in einer anderen Größe',
+    'Der Blazer passt nicht Kriege ich den auch in Größe Achtunddreißig',
+    'Der Blazer passt nicht Kriege ich den auch in einer anderen Größe',
+    'Der Blazer sitzt nicht Bekomme ich den auch in Größe Achtunddreißig',
+    'Der Blazer sitzt nicht Bekomme ich den auch in einer anderen Größe',
+    'Der Blazer sitzt nicht Kriege ich den auch in Größe Achtunddreißig',
+    'Der Blazer sitzt nicht Kriege ich den auch in einer anderen Größe',
+    'Kriege ich den auch in Größe Achtunddreißig',
+    'Kriege ich den auch in einer anderen Größe'
   ]
 };

@@ -1,6 +1,29 @@
 export default {
   slots: {},
   utterances: [
-    "komme"
+    'Da gehe ich auf jeden Fall hin',
+    'Da gehe ich auf jeden Fall',
+    'Da gehe ich gern hin',
+    'Da gehe ich gern',
+    'Da gehe ich sicher hin',
+    'Da gehe ich sicher',
+    'Da komme ich auf jeden Fall hin',
+    'Da komme ich auf jeden Fall',
+    'Da komme ich gern hin',
+    'Da komme ich gern',
+    'Da komme ich sicher hin',
+    'Da komme ich sicher',
+    'Dahin gehe ich auf jeden Fall hin',
+    'Dahin gehe ich auf jeden Fall',
+    'Dahin gehe ich gern hin',
+    'Dahin gehe ich gern',
+    'Dahin gehe ich sicher hin',
+    'Dahin gehe ich sicher',
+    'Dahin komme ich auf jeden Fall hin',
+    'Dahin komme ich auf jeden Fall',
+    'Dahin komme ich gern hin',
+    'Dahin komme ich gern',
+    'Dahin komme ich sicher hin',
+    'Dahin komme ich sicher',
   ]
 };
