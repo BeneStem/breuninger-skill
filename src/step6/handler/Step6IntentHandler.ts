@@ -34,8 +34,8 @@ function Step6IntentHandler(this: RequestHandler, alexaRequest: request, alexaRe
     }
   });
 
-  alexaResponse.say(`Ich glaube ${Ssml.prosody('nicht',
-    {rate: 110})}, denn der Anzug ist aus Baumwolle und garantiert damit einen hohen Tragekomfort.`)
+  alexaResponse.say(`Kann ich mir ${Ssml.prosody('nicht',
+    {rate: 110})} vorstellen, der Anzug ist aus Baumwolle und garantiert damit einen hohen Tragekomfort.`)
     .reprompt('Brauchen Sie noch weitere Informationen zum Artikel?')
     .shouldEndSession(false);
 }
