@@ -82,8 +82,9 @@
          "name": "StepSixIntent",
          "samples": [
             "werde ich darin schwitzen",
-            "schweiß",
-            "schwitzen"
+            "Schweiß",
+            "schwitzen",
+            "Schweißpflecken"
          ]
       },
       {
@@ -94,6 +95,15 @@
             "andere Farbe",
             "passt nicht",
             "kürzer machen"
+         ]
+      },
+      {
+         "name": "StepEightIntent",
+         "samples": [
+            "das hat Spaß gemacht",
+            "Spaß",
+            "tolles Erlebnis",
+            "Erlebnis"
          ]
       }
    ],

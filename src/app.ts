@@ -27,6 +27,9 @@ import Step6IntentHandler from './step6/handler/Step6IntentHandler';
 import Step7Intent from './step7/domain/Step7Intent';
 import Step7IntentHandler from './step7/handler/Step7IntentHandler';
 
+import Step8Intent from './step8/domain/Step8Intent';
+import Step8IntentHandler from './step8/handler/Step8IntentHandler';
+
 // NEW_IMPORT_INSERTED
 
 import ErrorHandler from './common/handler/ErrorHandler';
@@ -49,6 +52,7 @@ app.intent('StepFourIntent', Step4Intent, Step4IntentHandler);
 app.intent('StepFiveIntent', Step5Intent, Step5IntentHandler);
 app.intent('StepSixIntent', Step6Intent, Step6IntentHandler);
 app.intent('StepSevenIntent', Step7Intent, Step7IntentHandler);
+app.intent('StepEightIntent', Step8Intent, Step8IntentHandler);
 
 // NEW_INTENT_INSERTED
 

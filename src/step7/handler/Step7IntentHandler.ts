@@ -1,6 +1,14 @@
 import {request, RequestHandler, response} from 'alexa-app';
+import * as aws from 'aws-sdk';
 
 function Step7IntentHandler(this: RequestHandler, alexaRequest: request, alexaResponse: response): void {
+  const sns = new aws.SNS();
+  sns.publish({
+    TargetArn: 'arn:aws:sns:eu-west-1:717668223655:breuninger_skill_test_topic',
+    Subject: 'BPA',
+    Message: '3 OG Umkleide 17 Größe 38 Ganni Hosenanzug Gelb wird benötigt.'
+  });
+
   alexaResponse.directive({
     type: 'Display.RenderTemplate',
     template: {
@@ -98,7 +106,7 @@ function Step7IntentHandler(this: RequestHandler, alexaRequest: request, alexaRe
 
   alexaResponse.say(
     `Wir haben die gewünschte Größe noch auf Lager. Ein Mitarbeiter wird Ihnen den Artikel in Kürze bringen. Stöbern Sie doch so lange durch unsere Empfehlungen zu diesem Anzug.`)
-    .shouldEndSession(true);
+    .shouldEndSession(false);
 }
 
 export default Step7IntentHandler;
