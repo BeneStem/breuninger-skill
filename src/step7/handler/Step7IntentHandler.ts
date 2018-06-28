@@ -97,7 +97,7 @@ function Step7IntentHandler(this: RequestHandler, alexaRequest: request, alexaRe
   });
 
   alexaResponse.say(
-    `Wir haben die gewünschte Größe noch auf Lager. Ein Mitarbeiter wird Ihnen den Artikel in Kürze bringen. Stöbern Sie doch so lange durch unsere Empfehlungen.`)
+    `Wir haben die gewünschte Größe noch auf Lager. Ein Mitarbeiter wird Ihnen den Artikel in Kürze bringen. Stöbern Sie doch so lange durch unsere Empfehlungen zu diesem Anzug.`)
     .shouldEndSession(true);
 }
 
