@@ -21,6 +21,8 @@ import NavigationIntentHandler from './navigation/handler/NavigationIntentHandle
 import InformationIntent from './information/domain/InformationIntent';
 import InformationIntentHandler from './information/handler/InformationIntentHandler';
 
+// NEW_IMPORT_INSERTED
+
 import ErrorHandler from './common/handler/ErrorHandler';
 
 const app = new alexa.app('breuninger');
@@ -58,6 +60,7 @@ app.intent('NavigationIntent', NavigationIntent, NavigationIntentHandler);
 // TODO Gibts das auch in 38?? => E-Mail wird getriggert =/= Ja, die Größe habe ich gefunden und einen Verkäufer benachrichtigt, dein Teil wird dir gleich gebracht. (VERKÄUFER FAVORIT) ==> STOP
 app.intent('InformationIntent', InformationIntent, InformationIntentHandler);
 
+// NEW_INTENT_INSERTED
 // TODO Das will ich haben, Bestell mir das nach Hause. ???
 // TODO Selbst entsichern, Selbst bezahlen ???
 
