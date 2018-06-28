@@ -2,6 +2,7 @@ import {request, RequestHandler, response} from 'alexa-app';
 
 function Step2IntentHandler(this: RequestHandler, alexaRequest: request, alexaResponse: response): void {
   // TODO MAYBE CARD
+
   alexaResponse.directive({
     type: 'Display.RenderTemplate',
     template: {
@@ -33,6 +34,7 @@ function Step2IntentHandler(this: RequestHandler, alexaRequest: request, alexaRe
       }
     }
   });
+
   alexaResponse.say(`Wir haben grade einen ganz exquisiten, gelben Hosenanzug von Ganni erhalten. Wär der was für Sie?`)
     .reprompt('Kann ich Ihnen eine Alternative empfehlen?')
     .shouldEndSession(false);

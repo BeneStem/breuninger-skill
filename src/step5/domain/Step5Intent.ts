@@ -1,12 +1,12 @@
 export default {
   slots: {},
   utterances: [
-    "wo finde ich",
+    "wo finde",
     "in welchem stock ist",
     "stock",
     "in welchem stockwerk ist",
     "stockwerk",
-    "wo muss ich hin",
+    "wo muss hin",
     "hingehen",
   ]
 };

@@ -4,6 +4,9 @@ export default {
     'anprobieren',
     'anschauen',
     'ansehen',
-    'Probe'
+    'Probe',
+    'angucken',
+    'ankucken',
+    'probetragen'
   ]
 };

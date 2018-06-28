@@ -3,6 +3,7 @@ import {Ssml} from 'ssml-gib';
 
 function Step1IntentHandler(this: RequestHandler, alexaRequest: request, alexaResponse: response): void {
   // TODO MAYBE CARD
+
   alexaResponse.directive({
     type: 'Display.RenderTemplate',
     template: {
@@ -34,6 +35,7 @@ function Step1IntentHandler(this: RequestHandler, alexaRequest: request, alexaRe
       }
     }
   });
+
   alexaResponse.say(
     `Ich kann Ihnen die Sommertrendfarbe Gelb empfehlen. Damit werden Sie auf jeder Party ${Ssml.emphasis('strahlen')}!`)
     .reprompt('Kann ich Ihnen weitere Trendempfehlungen geben?')

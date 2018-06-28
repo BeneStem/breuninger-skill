@@ -26,7 +26,10 @@
             "womit kann ich Aufsehen erregen",
             "Aufsehen erregen",
             "Aufsehen",
-            "womit steche ich heraus"
+            "womit steche ich heraus",
+            "was kannst du mir empfehlen",
+            "empfehlen",
+            "trend"
          ]
       },
       {
@@ -36,7 +39,10 @@
             "Etwas Neues",
             "Was Neues",
             "Neues im Sortiment",
-            "Sortiment"
+            "Sortiment",
+            "führen",
+            "führt",
+            "Marke"
          ]
       },
       {
@@ -45,7 +51,10 @@
             "anprobieren",
             "anschauen",
             "ansehen",
-            "Probe"
+            "Probe",
+            "angucken",
+            "ankucken",
+            "probetragen"
          ]
       },
       {
@@ -60,12 +69,12 @@
       {
          "name": "StepFiveIntent",
          "samples": [
-            "wo finde ich",
+            "wo finde",
             "in welchem stock ist",
             "stock",
             "in welchem stockwerk ist",
             "stockwerk",
-            "wo muss ich hin",
+            "wo muss hin",
             "hingehen"
          ]
       },
