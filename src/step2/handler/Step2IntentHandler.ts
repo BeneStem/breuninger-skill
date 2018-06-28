@@ -9,7 +9,7 @@ function Step2IntentHandler(this: RequestHandler, alexaRequest: request, alexaRe
       type: 'BodyTemplate3',
       token: 'product_image',
       backButton: 'HIDDEN',
-      title: 'Hosenanzug von Ganni',
+      title: 'Ganni Hosenanzug',
       backgroundImage: {
         sources: [
           {

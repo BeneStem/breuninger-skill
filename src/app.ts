@@ -56,7 +56,7 @@ app.sessionEnded(AmazonStopIntentHandler);
 
 app.error = ErrorHandler;
 
-app.messages.NO_INTENT_FOUND = 'Diese Anfrage kann ich leider nicht beantworten.';
+app.messages.NO_INTENT_FOUND = 'Bei dieser Frage kann ich Ihnen leider nicht weiterhelfen.';
 
 export default app;
 
