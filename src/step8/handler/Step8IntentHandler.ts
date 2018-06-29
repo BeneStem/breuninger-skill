@@ -20,8 +20,8 @@ function Step8IntentHandler(this: RequestHandler, alexaRequest: request, alexaRe
     }
   });
 
-  alexaResponse.say(`Gern geschehen, ${Ssml.emphasis('ich')} habe ${Ssml.emphasis('immer', 'strong')} Zeit für Sie! ${Ssml.break(
-    {ms: 250})} Wenn die Jury für mich stimmt!`)
+  alexaResponse.say(`Gern geschehen, ${Ssml.emphasis('ich')} habe ${Ssml.emphasis('immer')} Zeit für Sie. ${Ssml.break(
+    {ms: 300})} Wenn die Jury für mich stimmt!`)
     .shouldEndSession(true);
 }
 

@@ -9,5 +9,9 @@ export default {
     'Kriegt das Material Schweißflecken',
     'Kriegt das Produkt Flecken',
     'Kriegt das Produkt Schweißflecken',
+    'Sieht man bei dem Material Flecken',
+    'Sieht man bei dem Material Schweißflecken',
+    'Sieht man bei dem Produkt Flecken',
+    'Sieht man bei dem Produkt Schweißflecken',
   ]
 };
