@@ -1,7 +1,7 @@
 import app from './app';
 import * as fs from 'fs';
 
-fs.writeFile('schema.json', app.schemas.skillBuilder(), (error: NodeJS.ErrnoException) => {
+fs.writeFile('models/de-DE.json', app.schemas.askcli(), (error: NodeJS.ErrnoException) => {
   if (error !== null) {
     return;
   }

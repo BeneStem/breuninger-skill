@@ -1,4 +1,5 @@
+/.ask/
 /.idea/
-/functions/
+/lambda/
+/models/
 node_modules/
-/project.json

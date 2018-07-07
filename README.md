@@ -6,12 +6,12 @@ Give breuninger a voice.
 
 ## Setup
 
-Install and setup apex:
+Install and setup ask:
 
-http://apex.run/#installation
-http://apex.run/#aws-credentials
+https://www.npmjs.com/package/ask-cli
 
-    $ yarn install-apex
+    $ yarn global add ask-cli
+    $ ask init
 
 Install dependencies:
 

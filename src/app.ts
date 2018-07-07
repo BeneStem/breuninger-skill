@@ -45,6 +45,17 @@ app.intent('AMAZON.HelpIntent', AmazonIntent, AmazonHelpIntentHandler);
 app.intent('AMAZON.StopIntent', AmazonIntent, AmazonStopIntentHandler);
 app.intent('AMAZON.NavigateHomeIntent', AmazonIntent, AmazonStopIntentHandler);
 
+app.intent('AMAZON.NextIntent', AmazonIntent, AmazonStopIntentHandler);
+app.intent('AMAZON.PreviousIntent', AmazonIntent, AmazonStopIntentHandler);
+app.intent('AMAZON.ScrollUpIntent', AmazonIntent, AmazonStopIntentHandler);
+app.intent('AMAZON.ScrollRightIntent', AmazonIntent, AmazonStopIntentHandler);
+app.intent('AMAZON.ScrollDownIntent', AmazonIntent, AmazonStopIntentHandler);
+app.intent('AMAZON.ScrollLeftIntent', AmazonIntent, AmazonStopIntentHandler);
+app.intent('AMAZON.PageUpIntent', AmazonIntent, AmazonStopIntentHandler);
+app.intent('AMAZON.PageDownIntent', AmazonIntent, AmazonStopIntentHandler);
+app.intent('AMAZON.NavigateSettingsIntent', AmazonIntent, AmazonStopIntentHandler);
+app.intent('AMAZON.MoreIntent', AmazonIntent, AmazonStopIntentHandler);
+
 app.intent('StepOneIntent', Step1Intent, Step1IntentHandler);
 app.intent('StepTwoIntent', Step2Intent, Step2IntentHandler);
 app.intent('StepThreeIntent', Step3Intent, Step3IntentHandler);
@@ -63,45 +74,3 @@ app.error = ErrorHandler;
 app.messages.NO_INTENT_FOUND = 'Bei dieser Frage kann ich Ihnen leider nicht weiterhelfen.';
 
 export default app;
-
-// Oh ja, zu dem Event komme ich. => Freut mich, dann sehen wir uns morgen abend! ==> STOP
-// Ich hab von dem XXX-Event gehört, wo finde ich das denn? => KARTEN BILD + ORTSANGABE (VERKÄUFER FAVORIT)
-// Produktinformationen an der Kleiderstange erfragen
-// Gibts das auch in 38?? => E-Mail wird getriggert =/= Ja, die Größe habe ich gefunden und einen Verkäufer benachrichtigt, dein Teil wird dir gleich gebracht. (VERKÄUFER FAVORIT) ==> STOP
-
-// sie nimmt am event teil und geht in umkleide
-// Das will ich haben, Bestell mir das nach Hause. ???
-// Selbst entsichern, Selbst bezahlen ???
-
-// Verkäufer Probleme (2)
-// wo finde ich das?
-// andere größe?
-// bib?
-// gutschein code vergessen?
-// bild von artiel, wo finde ich den?
-// wo finde ich diese marke?
-// regelmäßiger abstand standard ware wird bestellt => bestell mir das noch mal
-
-// PDF-Statistische Daten (2)
-
-// Potenzial
-// Order Stuff at restaurant
-// Shuttle buchen
-// FAQ / Information
-// do sth while doing sth else
-// Artikelinformation
-// BC Freischaltung
-// Delivery Status
-// Abrechung, Saldo
-// navigations hilfe im online-shop
-
-// 1. Verliebt => Alexa Beispiel Vorführung
-// 2. Kundennutzen => Wir haben Verkäufer gefragt: das kam raus, Wir haben Kunden Statistik: das sind die daten, Breuninger Kundengruppen
-// 3. Innovationsgrad => Verbindung von Online & Stationär, Barrieren verkleinern, First Mover, Kann noch keiner, Erfolgsstory wie bei BC, bringt den Kunden schon mal was bei für die nächsten Jahre
-// 4. Potenzial => Business Case, Verkäufer können sich konzentrieren, Skalierbarkeit, Weihnachstgeschäft, Kunden-Involvement, UseCase die Verkaufsfördernd sind
-// 5. Machbarkeit => Ihr seht ja, wie weit wir schon sind. Einiges gefaked. Plan für Integration aufzeigen!
-
-// TODO Donnerstag
-// Präsentaion @Svenja, Julia, Milen?
-// Generalprobe Alles @Svenja, Julia, Milen?
-// Zusammenfassungs-Folie @Svenja, Julia, Milen?

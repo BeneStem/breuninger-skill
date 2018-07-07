@@ -1,0 +1,43 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "de-DE": {
+          "summary": "Entdecken Sie mit dem Breuninger Skill die schönen Dinge des Lebens!",
+          "examplePhrases": [],
+          "keywords": [],
+          "name": "Breuninger",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1042/7b6a7e9571b14ffbbe2d58589cc61d60/APP_ICON?versionId=OEwKHZ82AU0.SL3mo8TAw5kFZFq4s_1E&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1531062814&Signature=zjlJDY%2FQBNjtVpxDcW1A1SCJKwA%3D",
+          "description": "+ Zugang zum mobil optimierten Breuninger Online-Shop\n+ Tagesaktuelle Umsätze Ihrer Breuninger Card inklusive aller Zusatzkarten\n+ Die mobile Breuninger Card für das Bezahlen in den Häusern\n+ Informationen und Events rund um die Breuninger Card\n+ Coupons zu exklusiven Aktionen direkt im Store einlösen\n+ Die Häuser von Breuninger mit allen Service-Informationen\n\nEntdecken Sie mit dem Breuninger Skill die schönen Dinge des Lebens!\n\nMit dem Breuninger Skill können Sie die schönen Dinge des Lebens jederzeit entdecken: den aktuellen Überblick über ihre Breuninger Card-Käufe, im Online-Shop Rund-um-die-Uhr-shoppen, exklusive Aktionen für noch mehr Freude am Einkaufen, und jede Menge Infos rund um unsere Häuser und angesagte Events.\n\nÜber den Skill können Sie komfortabel den voice optimierten Breuninger Online-Shop erreichen und sind direkt mit Ihrem Mein Breuninger-Account angemeldet.\nFragen, Anmerkungen oder Wünsche zum Skill senden Sie bitte an mobile@breuninger.de.\n\nÜber Breuninger\nBreuninger setzt als Fashion- und Lifestyleunternehmen hohe Ansprüche, denn Breuninger ist anders als die anderen. Wir präsentieren die angesagtesten Marken aus Mode, Parfümerie, Schuhe, Accessoires und Sport für Damen und Herren im exklusiven Flair der einzigartigen „Breuninger Welt“. Zusätzlich spüren unsere Einkäufer weltweit besondere Newcomerlabel und seltene Niche Brands auf, die im deutschsprachigen Raum nicht selten nur bei Breuninger erhältlich sind.\n\nBreuninger setzt höchste Maßstäbe in Sachen Service, Shoppingerlebnis und Trendsicherheit. Als Breuninger Card Kunde bestellen sie alle angebotenen Sortimente immer versandkostenfrei. Zur Adventszeit helfen wir Ihnen bei der Suche zum perfekten Weihnachtsgeschenk. Lassen Sie sich von den Geschenkideen für Frauen und für Herren inspirieren!\n\nFür Ihr souveränes Auftreten finden Sie stilvolle Outfits und aktuelle Stylingtipps zu jedem Anlass. Ob elegantes Businessoutfit, atemberaubendes Abendkleid oder funktionelle Sportbekleidung, Breuninger ist Trend-Impulsgeber und bietet auch für die kleinen Trendsetter eine tolle Auswahl aktueller Kindermode.\n\n• Mehr als 130 Jahre Breuninger \nDas Wichtigste am Anfang ist das Anfangen: Als Eduard Breuninger 1881 mit nur drei Mitarbeitern sein Einzelhandelsgeschäft eröffnete, ahnte er vermutlich noch nicht, dass es einmal zu einem der erfolgreichsten Mode- und Lifestyle-Unternehmen Deutschlands werden würde. \n\n• 11 Häuser \nBreuninger eroberte nicht nur den Modemarkt, sondern auch die Herzen seiner Kunden im Sturm. Was in Stuttgart begann, begeistert heute nicht nur dort im Flagship-Store unsere Kunden, sondern auch in Düsseldorf, Ludwigsburg, Sindelfingen, Nürnberg, Freiburg, Erfurt, Leipzig, MTZ, Karlsruhe und Reutlingen.\n\n• 1.000 Marken \nVon A wie außergewöhnlich über E wie exquisit bis hin zu Z wie zeitlos, führen wir alle Marken, die einen großen Namen haben – genauso wie vielversprechende Newcomer-Labels.\n\n• 15 Restaurants & Confiserien \nBei Breuninger werden selbst die Shoppingpausen zum Genuss – zum Beispiel im Restaurant (karls)kitchen in Stuttgart, der Sansibar in Düsseldorf oder in einer unserer hauseigenen Confiserien. \n\n• 5.500 Mitarbeiter \nEs ist die große Begeisterung für ihre Arbeit, die unsere Mitarbeiter auszeichnet – ganz gleich, ob sie im Verkauf arbeiten, die Exzellenz unserer Sortimente im Einkauf weiter vorantreiben oder sich im Service den kleinen und großen Wünschen unserer Kunden stellen.\n\n• 15 erstklassige Services \nWir tun alles für den Kunden: In jedem unserer Häuser sind im Kundenservice persönliche Ansprechpartner für Sie und Ihre Anliegen da. Darüber hinaus bieten wir Ihnen einen Shuttle Service, Personal Shopping sowie viele weitere einzigartige Serviceangebote.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/67e1/46dbd31d1c7349b8a668de1f564be555/APP_ICON_LARGE?versionId=aAZR2nyVGcEjRFmEdcVY8.HDT1c69Qxe&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1531062814&Signature=v66WMRSFYvTI7jDv1Eu43k9uTKE%3D"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "category": "FASHION_AND_STYLE",
+      "distributionCountries": [
+        "DE",
+        "AT"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "./lambda/eu-west-1_breuninger_skill"
+        },
+        "interfaces": [
+          {
+            "type": "RENDER_TEMPLATE",
+            "minimumTemplateVersion": "1.0"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
