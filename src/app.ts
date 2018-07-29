@@ -3,7 +3,6 @@ import * as alexa from 'alexa-app';
 import AmazonLaunchIntentHandler from './common/handler/AmazonLaunchIntentHandler';
 import AmazonIntent from './common/domain/AmazonIntent';
 import AmazonCancelIntentHandler from './common/handler/AmazonCancelIntentHandler';
-import AmazonHelpIntentHandler from './common/handler/AmazonHelpIntentHandler';
 import AmazonStopIntentHandler from './common/handler/AmazonStopIntentHandler';
 
 import Step1Intent from './step1/domain/Step1Intent';
@@ -30,17 +29,21 @@ import Step7IntentHandler from './step7/handler/Step7IntentHandler';
 import Step8Intent from './step8/domain/Step8Intent';
 import Step8IntentHandler from './step8/handler/Step8IntentHandler';
 
-// NEW_IMPORT_INSERTED
+import NavigationIntent from './navigation/domain/NavigationIntent';
+import NavigationIntentHandler from './navigation/handler/NavigationIntentHandler';
+
+import SizeIntentHandler from './size/handler/SizeIntentHandler';
+import SizeIntent from './size/domain/SizeIntent';
 
 import ErrorHandler from './common/handler/ErrorHandler';
+
+import getAmazonHelpIntentHandler from './common/handler/AmazonHelpIntentHandler';
 
 const app = new alexa.app('breuninger');
 
 app.launch(AmazonLaunchIntentHandler);
 
 app.intent('AMAZON.CancelIntent', AmazonIntent, AmazonCancelIntentHandler);
-
-app.intent('AMAZON.HelpIntent', AmazonIntent, AmazonHelpIntentHandler);
 
 app.intent('AMAZON.StopIntent', AmazonIntent, AmazonStopIntentHandler);
 app.intent('AMAZON.NavigateHomeIntent', AmazonIntent, AmazonStopIntentHandler);
@@ -65,12 +68,15 @@ app.intent('StepSixIntent', Step6Intent, Step6IntentHandler);
 app.intent('StepSevenIntent', Step7Intent, Step7IntentHandler);
 app.intent('StepEightIntent', Step8Intent, Step8IntentHandler);
 
-// NEW_INTENT_INSERTED
+app.intent('NavigationIntent', NavigationIntent, NavigationIntentHandler);
+app.intent('SizeIntent', SizeIntent, SizeIntentHandler);
 
 app.sessionEnded(AmazonStopIntentHandler);
 
 app.error = ErrorHandler;
 
 app.messages.NO_INTENT_FOUND = 'Bei dieser Frage kann ich Ihnen leider nicht weiterhelfen.';
+
+app.intent('AMAZON.HelpIntent', AmazonIntent, getAmazonHelpIntentHandler(app.intents));
 
 export default app;
