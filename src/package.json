@@ -8,8 +8,8 @@
   },
   "devDependencies": {
     "alexa-app": "4.2.2",
-    "aws-sdk": "2.282.1",
-    "request": "2.87.0",
+    "aws-sdk": "2.320.0",
+    "request": "2.88.0",
     "ssml-gib": "0.7.4"
   },
   "author": {
