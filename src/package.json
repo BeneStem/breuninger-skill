@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "alexa-app": "4.2.2",
-    "aws-sdk": "2.320.0",
+    "alexa-app": "4.2.3",
+    "aws-sdk": "2.358.0",
     "request": "2.88.0",
     "ssml-gib": "0.7.4"
   },
